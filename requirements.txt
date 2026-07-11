@@ -1,0 +1,19 @@
+# Core (required) — pinned for reproducibility
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+xgboost==2.1.1
+matplotlib==3.9.2
+
+# --- Optional extras -------------------------------------------------------
+# The pipeline runs fully without these; each is guarded/falls back.
+
+# Validated UVA/Padova T1D simulator, used by `--source simglucose` as a
+# real(-istic) second data source. Falls back to the built-in generator if
+# absent.
+simglucose==0.2.11
+
+# Stretch LSTM model (PyTorch, CPU is fine). The LSTM is skipped automatically
+# if torch is not importable.
+torch==2.4.1
