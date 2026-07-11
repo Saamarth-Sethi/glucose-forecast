@@ -5,11 +5,6 @@ time-series, and turn those forecasts into **early warnings** for impending
 hypoglycemic (< 70 mg/dL) and hyperglycemic (> 180 mg/dL) events — so a
 caregiver can act *before* the event happens.
 
-> Resume line this implements: *"Developed a Python time-series machine
-> learning model to forecast short-term blood glucose levels from continuous
-> sensor data, surfacing early warnings for potential hypoglycemic and
-> hyperglycemic events."*
-
 Everything runs on a laptop with **no GPU and no proprietary data**:
 `python main.py` generates realistic CGM data, tunes and trains the models,
 evaluates them, and saves plots.
