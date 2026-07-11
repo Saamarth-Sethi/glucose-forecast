@@ -10,7 +10,8 @@ outputs/*.png
 outputs/*.csv
 outputs/*.txt
 
-# OS / editor
+# OS / editor / local tooling
 .DS_Store
 .idea/
 .vscode/
+.claude/
